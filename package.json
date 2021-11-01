@@ -1,0 +1,27 @@
+{
+  "name": "@saperiuminc/redis-semaphore",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine spec/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saperiuminc/redis-semaphore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saperiuminc/redis-semaphore/issues"
+  },
+  "homepage": "https://github.com/saperiuminc/redis-semaphore#readme",
+  "dependencies": {
+    "ioredis": "^4.27.8",
+    "redlock": "^4.2.0"
+  },
+  "devDependencies": {
+    "docker-compose": "^0.23.13",
+    "jasmine": "^3.9.0"
+  }
+}

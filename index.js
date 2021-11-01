@@ -1,0 +1,1 @@
+module.exports.Semaphore = require('./lib/01/semaphore');
