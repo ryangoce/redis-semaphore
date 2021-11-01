@@ -1,1 +1,1 @@
-module.exports.Semaphore = require('./lib/01/semaphore');
+module.exports.Semaphore = require('./lib/semaphore');
